@@ -13,7 +13,13 @@
 ### 課題をクリアするためのステップ
 
 - [ ] index.htmlとstyles.cssのコメントに従って、上の画像の完成形と同じWebページを作成してください
-
+- [ ] 上記完成形で使用している猫の画像は以下のとおりですが、お好きな画像を利用しても使っていただいても構いません。(以下の画像は全て[ぱくたそ](https://www.pakutaso.com/animal/cat/) のフリー素材を使っています)
+  - https://www.pakutaso.com/shared/img/thumb/TOMheuaDSC01992_TP_V1.jpg
+  - https://www.pakutaso.com/shared/img/thumb/TOMnemuiDSC01757_TP_V1.jpg
+  - https://www.pakutaso.com/shared/img/thumb/TOMcatDSC02022_TP_V1.jpg
+  - https://www.pakutaso.com/shared/img/thumb/TOMcatDSC02346_TP_V1.jpg
+  - https://www.pakutaso.com/shared/img/thumb/TOMcatDSC01994_TP_V1.jpg
+  - https://www.pakutaso.com/shared/img/thumb/TOMcatDSC01938_TP_V1.jpg
 
 ## 答え
 
