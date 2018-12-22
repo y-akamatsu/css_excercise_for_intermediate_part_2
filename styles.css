@@ -3,11 +3,18 @@
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  * - 背景色を #cccccc とする
  */
-
+body {
+  width: 780px;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
 
 /**
  * - 見出し(h1)は中央揃えにしてください
  */
+ h1 {
+   text-align: center;
+ }
 
 
 /**
