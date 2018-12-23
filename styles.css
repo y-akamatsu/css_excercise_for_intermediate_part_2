@@ -3,12 +3,17 @@
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  * - 背景色を #cccccc とする
  */
-
-
+body{
+  width: 760px;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
 /**
  * - 見出し(h1)は中央揃えにしてください
  */
-
+.h1 {
+  text-align: text;
+}
 
 /**
  * フレックスボックスのフレックスコンテナーとなる要素
@@ -18,6 +23,11 @@
  * - フレックスアイテムがフレックスコンテナー内に収まりきらない場合は、改行するようにする(ヒント: flex-wrapプロパティ)
  */
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 /**
  * フレックスボックスのフレックスアイテムとなる要素
  * 1行につきフレックスアイテムは3個置くようにする
@@ -34,12 +44,24 @@
  *      - 760px - 30px
  *    - 730px ÷ 3 = 243.3333....(243px)
  */
+ .picture {
+   width: 243px;
+   margin: 0 5px 10px 5px;
+   background-color: #ffffff;
+ }
 
 /**
  * - 画像タイトルは中央寄せにして
  * - デフォルトの文字サイズを100%として、80%の大きさにする
  */
 
+ .picture-title {
+   text-align: center;
+   font-size: 80%;
+ }
 /**
  * フレックスアイテム内の画像は親要素の横幅と同じにする(%を使った書き方で記述する)
  */
+.picture img {
+  width: 100%;
+}
